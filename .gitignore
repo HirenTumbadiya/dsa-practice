@@ -1,0 +1,12 @@
+/target/
+**/target/
+**/*.rs.bk
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+
+.DS_Store
+*.log
+.idea/
+.vscode/
