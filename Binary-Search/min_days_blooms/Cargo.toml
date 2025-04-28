@@ -1,0 +1,6 @@
+[package]
+name = "min_days_blooms"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
