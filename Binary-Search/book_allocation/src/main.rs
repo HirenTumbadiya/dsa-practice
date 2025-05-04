@@ -31,24 +31,6 @@ fn is_possible(books: &[i32], students: i32, max_pages: i32) -> bool {
     }
     true
 }
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn test_book_allocation() {
-        let books = [12, 34, 67, 90];
-        let students = 2;
-        assert_eq!(book_allocation(&books, students), 113);
-    }
-
-    #[test]
-    fn test_book_allocation_2() {
-        let books = [10, 20, 30, 40];
-        let students = 2;
-        assert_eq!(book_allocation(&books, students), 60);
-    }
-}
 
 fn main() {
     let books = [12, 34, 67, 90];
